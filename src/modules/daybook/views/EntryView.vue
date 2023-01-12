@@ -105,6 +105,8 @@ export default {
     },
     methods:{
         loadEntry(){
+            this.localImage = null
+            this.file = null
             let entry
             if (this.id === 'new'){
                 entry = {
